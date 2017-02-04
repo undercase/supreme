@@ -14,8 +14,12 @@
   font-family: 'Futura';
 }
 
-h1, h3, h5 {
+h1, h4, h5 {
   color: #fe0000;
+}
+
+h4 {
+  margin-bottom: 1.5rem;
 }
 
 h5 {

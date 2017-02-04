@@ -1,6 +1,6 @@
 supremeBackgroundColor = '#fe0000';
 supremeTextColor = '#ffffff';
-supremeFont = '200px Futura';
+supremeFont = '100px Futura';
 
 function overwrite() {
   var canvas = document.getElementById('logo');
@@ -8,6 +8,7 @@ function overwrite() {
   context.fillStyle = supremeBackgroundColor;
   context.fillRect(0, 0, canvas.width, canvas.height);
 }
+
 
 function updateText(t) {
   var canvas = document.getElementById('logo');
