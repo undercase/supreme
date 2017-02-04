@@ -14,14 +14,35 @@
   font-family: 'Futura';
 }
 
-h1 {
+h1, h3, h5 {
   color: #fe0000;
+}
+
+h5 {
+  opacity: 0.8;
+}
+
+h5 a {
+  color: #fe0000;
+  opacity: 0.5;
+  transition: 0.2s ease-in-out;
+}
+
+h5 a:hover {
+  opacity: 1;
 }
 
 .container {
   text-align: center;
 
 }
+
+.input-field {
+  width: 300px;
+
+  margin: auto;
+}
+
 /* label color */
  .input-field label {
    color: #fe0000;
