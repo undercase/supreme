@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Futura";
+  src: url("https://db.onlinewebfonts.com/t/038cce7b400a94325f0721bb7b603929.eot");
+  src: url("https://db.onlinewebfonts.com/t/038cce7b400a94325f0721bb7b603929.eot?#iefix") format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/038cce7b400a94325f0721bb7b603929.woff2") format("woff2"),
+  url("https://db.onlinewebfonts.com/t/038cce7b400a94325f0721bb7b603929.woff") format("woff"),
+  url("https://db.onlinewebfonts.com/t/038cce7b400a94325f0721bb7b603929.ttf") format("truetype"),
+  url("https://db.onlinewebfonts.com/t/038cce7b400a94325f0721bb7b603929.svg#Futura") format("svg");
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "Futura";
+}
