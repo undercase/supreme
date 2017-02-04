@@ -12,7 +12,6 @@ function overwrite() {
 function updateText(t) {
   var canvas = document.getElementById('logo');
   var context = canvas.getContext('2d');
-
   var x = canvas.width/2;
   var y = canvas.height/2;
 
@@ -32,5 +31,5 @@ $(document).ready(function() {
   $('input').change(function() {
     var supreme_text = $(this).val();
     updateText(supreme_text);
-  })
+  });
 });
