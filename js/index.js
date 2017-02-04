@@ -28,6 +28,12 @@ function updateText(t) {
 }
 
 $(document).ready(function() {
+  var download = document.getElementById('download');
+  var canvas = document.getElementById('logo');
+  download.addEventListener('click', function(event) {
+    download.href = canvas.toDataURL();
+    download.download = $('input').val() + ".png";
+  }, false);
   overwrite();
   updateText('Supreme');
   $('input').keyup(function() {
