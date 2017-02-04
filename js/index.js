@@ -28,7 +28,7 @@ function updateText(t) {
 
 $(document).ready(function() {
   overwrite();
-  $('input').change(function() {
+  $('input').keyup(function() {
     var supreme_text = $(this).val();
     updateText(supreme_text);
   });
