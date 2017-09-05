@@ -32,7 +32,11 @@ $(document).ready(function() {
   var canvas = document.getElementById('logo');
   download.addEventListener('click', function(event) {
     download.href = canvas.toDataURL();
-    download.download = $('input').val() + ".png";
+    var val = $('input').val();
+    if (val === '') {
+      val = 'supreme';
+    }
+    download.download = val + "-supreme.png";
   }, false);
   overwrite();
   updateText('Supreme');
