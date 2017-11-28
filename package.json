@@ -1,0 +1,23 @@
+{
+  "name": "supreme",
+  "version": "1.0.0",
+  "description": "generate custom supreme box logos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurajuliette/supreme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laurajuliette/supreme/issues"
+  },
+  "homepage": "https://github.com/laurajuliette/supreme#readme",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
